@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family: "norwester";
+  src: url("../fonts/norwester.otf");
+}
+
+
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: "norwester";
+}
