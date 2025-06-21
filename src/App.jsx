@@ -405,41 +405,41 @@ function App() {
                 <h1 className="page-3-header text-[#80cc45] relative text-[min(10vw,80px)] font-bold">My Best Projects</h1>
                 <div className="page-3-projects grid-cols-[repeat(auto-fit,minmax(1000px,1fr))] w-full flex justify-center">
                   <div className="page-3-project-list mt-8 w-[90vw] grid gap-x-5 gap-y-5 md:grid-cols-2 md:px-20">
+                    
                     <div className="project-item hover:scale-[1.03] ">
-                      <div className="project-name">Phantom Scraper</div>
+                      <div className="project-name">JungleToDo</div>
                       <div className="project-details">
-                        <div>Link : <a href="" className="project-link">Github</a></div>
-                        <div>Stack : python, selenium, tkinter </div>
+                        <div>Link : <a href="https://jungletodo.vercel.app/" target="_blank" rel="noopener noreferrer"  className="project-link transition-colors duration-300 hover:text-yellow-400">Website</a></div>
+                        <div>Stack : React, Fastapi, Pillow, TailwindCSS </div>
                       </div>
-                      <p className="about-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sequi.
-                        Soluta modi, recusandae nisi dolor numquam veritatis labore aut quisquam corporis.</p>
+                      <p className="about-project">A gamified, minimalist to-do list app. Every completed task grows a virtual forest, creating a fun sense of progress. Design takes inspiration from Excalidraw’s clean, hand-drawn aesthetic.</p>
                     </div>
                     <div className="project-item hover:scale-[1.03] ">
-                      <div className="project-name">Phantom Scraper</div>
+                      <div className="project-name">FIFS ML Model</div>
                       <div className="project-details">
-                        <div>Link : <a href="" className="project-link">Github</a></div>
-                        <div>Stack : python, selenium, tkinter </div>
+                        <div>Link : <a href="https://www.linkedin.com/feed/update/urn:li:activity:7309946471758368768/" target="_blank" rel="noopener noreferrer"  className="project-link transition-colors duration-300 hover:text-yellow-400">Linkedin Post</a></div>
+                        <div>Stack : python, pytorch, pandas, numpy </div>
                       </div>
-                      <p className="about-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sequi.
-                        Soluta modi, recusandae nisi dolor numquam veritatis labore aut quisquam corporis.</p>
+                      <p className="about-project">Built a machine learning model to predict optimal top-11 player lineups for matches. Submitted as part of FIFS (Federation of Indian Fantasy Sports) Gameathon 1.0, achieving 4th place in the nationwide competition.</p>
                     </div>
+                    <div className="project-item hover:scale-[1.03] ">
+                      <div className="project-name">Portfolio</div>
+                      <div className="project-details">
+                        <div>
+  Link : <a href="/" target="_blank" rel="noopener noreferrer"  className="project-link transition-colors duration-300 hover:text-yellow-400">Website</a>
+</div>
+                        <div>Stack : React, tailwind, gsap </div>
+                      </div>
+                      <p className="about-project">Built a personal portfolio website featuring my skills, projects, experience, and contact information. Designed to serve as a professional online presence..</p>
+                    </div>
+
                     <div className="project-item hover:scale-[1.03] ">
                       <div className="project-name">Phantom Scraper</div>
                       <div className="project-details">
-                        <div>Link : <a href="" className="project-link">Github</a></div>
-                        <div>Stack : python, selenium, tkinter </div>
+                        <div>Link : <a href="https://github.com/AitijyaGhosh365/phantom_scraper_x" target="_blank" rel="noopener noreferrer"  className="project-link transition-colors duration-300 hover:text-yellow-400">Github</a></div>
+                        <div>Stack : python, selenium, customtkinter </div>
                       </div>
-                      <p className="about-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sequi.
-                        Soluta modi, recusandae nisi dolor numquam veritatis labore aut quisquam corporis.</p>
-                    </div>
-                    <div className="project-item hover:scale-[1.03] ">
-                      <div className="project-name">Phantom Scraper</div>
-                      <div className="project-details">
-                        <div>Link : <a href="" className="project-link">Github</a></div>
-                        <div>Stack : python, selenium, tkinter </div>
-                      </div>
-                      <p className="about-project">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sequi.
-                        Soluta modi, recusandae nisi dolor numquam veritatis labore aut quisquam corporis.</p>
+                      <p className="about-project">Developed a Social Media Scraper for the Smart India Hackathon using Selenium and Python. The project was successfully shortlisted in the college-level screening round.</p>
                     </div>
 
 
@@ -459,45 +459,30 @@ function App() {
 
 
                   <div className="social-links flex flex-col flex-wrap justify-center items-center w-2/5 text-5xl">
-                    <h1 className="social-links-header text-[#cc702e] pb-5 text-3xl lg:text-5xl"> Socials</h1>
+                    <h1 className="social-links-header text-[#cc702e] pb-5 text-3xl lg:text-5xl">Socials</h1>
 
 
                     <div className="flex flex-wrap justify-center items-center gap-5">
-                      <a className="s-link">
+                      <a className="s-link" href="https://www.instagram.com/aitijya_ghosh/">
                         <i className="ri-instagram-line"></i>
 
                       </a>
-                      <a className="s-link">
+                      <a className="s-link" href="https://x.com/AitijyaG20726">
                         <i className="ri-twitter-x-line"></i>
 
                       </a>
-                      <a className="s-link">
+                      <a className="s-link" href="https://github.com/AitijyaGhosh365">
                         <i className="ri-github-line"></i>
                       </a>
-                      <a className="s-link">
-                        <i className="ri-discord-line"></i>
+                      <a className="s-link" href="https://www.linkedin.com/in/aitijya-ghosh-98047a293/">
+                        <i className="ri-linkedin-line"></i>
                       </a>
-                    </div>
-
-                  </div>
-
-                  <div className="social-links flex flex-col flex-wrap justify-center items-center text-5xl w-2/5">
-                    <h1 className="social-links-header text-[#cc702e] pb-5 text-3xl lg:text-5xl">Message Me</h1>
-
-
-                    <div className="w-full flex flex-wrap justify-center items-center gap-5">
-                      <form action="" className="contact-form">
-                        <input type="email" name="Email" placeholder="Your Email" required />
-                        <input type="text" name="Subject" placeholder="Subject" required />
-                        <textarea name="message" id="message-box" placeholder="Your Message" rows={5} required></textarea>
-                        <button type="submit">Send Message</button>
-
-                      </form>
-
 
                     </div>
 
                   </div>
+
+
 
 
 
