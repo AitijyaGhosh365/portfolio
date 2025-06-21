@@ -417,7 +417,7 @@ function App() {
                     <div className="project-item hover:scale-[1.03] ">
                       <div className="project-name">FIFS ML Model</div>
                       <div className="project-details">
-                        <div>Link : <a href="https://www.linkedin.com/feed/update/urn:li:activity:7309946471758368768/" target="_blank" rel="noopener noreferrer"  className="project-link transition-colors duration-300 hover:text-yellow-400">Linkedin Post</a></div>
+                        <div>Link : <a href="https://www.linkedin.com/posts/avash-banerjee-3342b4290_wavessummit2025-fifs-activity-7327218246581948416-eu6F/" target="_blank" rel="noopener noreferrer"  className="project-link transition-colors duration-300 hover:text-yellow-400">Linkedin Post</a></div>
                         <div>Stack : python, pytorch, pandas, numpy </div>
                       </div>
                       <p className="about-project">Built a machine learning model to predict optimal top-11 player lineups for matches. Submitted as part of FIFS (Federation of Indian Fantasy Sports) Gameathon 1.0, achieving 4th place in the nationwide competition.</p>
